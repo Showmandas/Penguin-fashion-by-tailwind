@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/d6aff4eabe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="md:container md:mx-auto px-3 py-3 px-24">
+    <nav class="md:flex md:items-center md:justify-between">
+            <img class="h-10 inline w-72" src="images/logo.png" alt="penguin logo">
+            <ul class="md:flex md:items-center">
+                <li class="mx-4  text-base font-medium"><a href="#">Home</a></li>
+                <li class="mx-4  text-base font-medium"><a href="#">Product</a></li>
+                <li class="mx-4  text-base font-medium"><a href="#">About us</a></li>
+                <li class="mx-4  text-base font-medium"><a href="#">Contact us</a></li>
+            </ul>
+    </nav><!--end navbar-->
+    <section class="banner flex justify-between items-center px-2 py-8">
+        <div class="banner-text md:w-80 md:space-y-7 flex flex-col space-y-5">
+            <h1 class="text-5xl font-semibold"> <span>Be the Penguins</span> 
+                of Winter</h1>
+            <p class="text-base font-normal">Lorem Ipsum is simply dummy text of the printing 
+                and typesetting industry.</p>
+            <button class="w-32 text-white h-10"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp; BUY NOW</button>
+        </div><!--/banner-text-->
+        <div class="banner-img">
+            <img class="max-w-sm md:w-9/12" src="images/model.png" alt="banner image">
+        </div><!--/banner-img-->
+    </section>
+  </header>
+  <!--/end header-->
+  <section class="woman-section">
+    <h1>W0Man Jacket</h1>
+    <div class="grid grid-cols-3 justify-items-center">
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm">
+                <img src="images/jacket-1.png" class="w-full" alt="">
+            </div><!--/rounded class-->
+        </div><!--/py-10-->
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm">
+                <img src="images/jacket-2.png" class="w-full" alt="">
+            </div><!--/rounded class-->
+        </div><!--/py-10-->
+        <div class="py-10">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm">
+                <img src="images/jacket-3.png" class="w-full" alt="">
+            </div><!--/rounded class-->
+        </div><!--/py-10-->
+    </div><!--grid-class-->
+  </section><!--/woman-section-->
+</body>
+</html>

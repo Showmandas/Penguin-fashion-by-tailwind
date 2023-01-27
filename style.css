@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#FABE4C;
+    --secondary-color: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    --tertiary-color:#363958;
+}
+
+header{
+    background-color:  #FFFBF0;
+}
+
+.banner-text>h1{
+    color: var(--tertiary-color);
+}
+.banner-text>h1>span{
+    color: var(--primary-color);
+}
+
+.banner-text>p{
+    color: #3E3E3E;;
+}
+
+.banner-text>button{
+    background: var(--secondary-color);
+    
+}

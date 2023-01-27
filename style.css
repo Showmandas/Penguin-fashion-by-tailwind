@@ -25,7 +25,13 @@ header{
     color: #3E3E3E;;
 }
 
-.banner-text>button{
+#btn{
     background: var(--secondary-color);
     
+}
+
+
+/* woman section style  */
+#card-para{
+    color: var(--primary-color);
 }
